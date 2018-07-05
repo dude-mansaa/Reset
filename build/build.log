@@ -1,109 +1,966 @@
-Handling lib "rpc-uart"...
 Handling lib "rpc-service-fs"...
 Handling lib "rpc-service-config"...
+Handling Success, built Reset/esp32 version 1.0 (20180705-084311/???).
+Firmware saved to build\fw.zip
+t"...
+Handling lib "bt-common"...
+Handling lib "mjs"...
 The --lib flag was not given for it, checking repository
 The --lib flag was not given for it, checking repository
 The --lib flag was not given for it, checking repository
-Prebuilt binary for "rpc-uart" already exists
-Prepared local dir: "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart"
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs" does not exist, cloning...
+
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common" does not exist, cloning...
+
+Hash is updated: "" -> "99e444e69693f263d4fbd34390d9b735dc37b3bd"
+Hash is updated: "" -> "654e75f3cdd0be967f356d92c1e04c1fc999a36e"
+Hash is updated: "" -> "6b4beef4aace6e05fa3786fc4d9b96a002cefd5e"
+Hash is updated: "" -> "13713bea3ced211e90fa6b1c438883ab5835cdef"
+Hash is updated: "" -> "f5acd5efa35081803a12b23e772715daa53ce58d"
+Hash is updated: "" -> "d6667b9320fc7cf83ad98dab760dc6e40b1a93a9"
+Hash is updated: "" -> "354f394ea6142cf7958d1c03464326177cc90a4f"
+Hash is updated: "" -> "67bb30e40057b8b65e2ea072eb358f15ce499aee"
+Falling back to sources for "bt-service-config" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/bt-service-config/releases/download/2.3/libbt-service-config-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config"
+Falling back to sources for "wifi" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/wifi/releases/download/2.3/libwifi-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi"
+Handling lib "mongoose"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose" does not exist, cloning...
+
+Falling back to sources for "bt-common" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/bt-common/releases/download/2.3/libbt-common-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common"
+Falling back to sources for "pwm" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/pwm/releases/download/2.3/libpwm-esp32.a)
+Falling back to sources for "mjs" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/mjs/releases/download/2.3/libmjs-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm"
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs"
+Falling back to sources for "rpc-service-fs" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-service-fs/releases/download/2.3/librpc-service-fs-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs"
 Handling lib "rpc-common"...
 The --lib flag was not given for it, checking repository
-Prebuilt binary for "rpc-service-config" already exists
-Prepared local dir: "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config"
-Lib "rpc-common" is already handled, skipping
-Prebuilt binary for "rpc-service-fs" already exists
-Prepared local dir: "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs"
-Lib "rpc-common" is already handled, skipping
-Falling back to sources for "rpc-common" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-common/releases/download/2.2/librpc-common-esp32.a)
-Prepared local dir: "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common"
-Lib "http-server" is optional, skipping
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common" does not exist, cloning...
+
+Falling back to sources for "rpc-service-config" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-service-config/releases/download/2.3/librpc-service-config-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config"
+Falling back to sources for "rpc-uart" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-uart/releases/download/2.3/librpc-uart-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart"
+Hash is updated: "" -> "22166e042a608c6a79d44af36d65d2e71cbe0790"
+Hash is updated: "" -> "ebe700672af6f8e5e42c446619666cc41d7059bc"
+Falling back to sources for "rpc-common" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-common/releases/download/2.3/librpc-common-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common"
+Handling lib "http-server"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server" does not exist, cloning...
+
+Hash is updated: "" -> "f489eabc4f7bc1c98f277ec8783eaec0491ba67b"
+Falling back to sources for "http-server" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/http-server/releases/download/2.3/libhttp-server-esp32.a)
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server"
+Successfully fetched prebuilt binary for "mongoose" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32/libmongoose.a"
+Prepared local dir: "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose"
+The flag --module is not given for the module "mjs_module", going to use the repository
+Repository "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module" does not exist, cloning...
+
 The flag --repo is not given, going to use mongoose-os repository
-Sources: [/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src/main.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen/mgos_deps_init.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src/mgos_rpc_channel_uart.c]
-Include dirs: [/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include]
-Binary libs: []
+Sources: [/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src/main.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mgos_deps_init.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt_gap.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gap.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gattc.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gatts.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src/mos_mjs.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src/esp32_mjs.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/mgos_pwm.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32/esp32_pwm.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src/mgos_http_server.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src/mgos_rpc_channel_uart.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mgos_wifi.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mjs_wifi.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src/esp32_wifi.c]
+Include dirs: [/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32 /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include]
+Binary libs: [/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32/libmongoose.a]
 Building...
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673" to "/app"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/modules/mongoose-os" to "/mongoose-os"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/modules/mongoose-os" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/modules/mongoose-os"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs"
-mount from "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen" to "/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen"
-Docker arguments: run --name mos_build_2018-06-28T09-17-25-00_1570958211316966525 --rm -i -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/modules/mongoose-os:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/modules/mongoose-os -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673:/app -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc:/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc -v /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/modules/mongoose-os:/mongoose-os --user 0:0 docker.cesanta.com/esp32-build:3.0-rc1-r9 /bin/bash -c nice make '-j' '16' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp32/Makefile.build' 'all' 'APP_CXXFLAGS=-DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_ENABLE_SYS_SERVICE=1' 'FFI_SYMBOLS=' 'PLATFORM=esp32' 'FW_DIR=build/fw' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'APP_SOURCES=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src/main.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen/mgos_deps_init.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src/mgos_rpc_channel_uart.c' 'APP_FS_FILES=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs/index.html /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs/init.js' 'APP_CONF_SCHEMA=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen/mos_conf_schema.yml' 'FS_STAGING_DIR=build/fs' 'MGOS_HAVE_RPC_COMMON=1' 'APP_BIN_LIBS=' 'APP_CFLAGS=-DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_RPC_COMMON=1' 'BUILD_DIR=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/objs' 'ESP_IDF_SDKCONFIG_OPTS=' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'MGOS_HAVE_RPC_UART=1' 'APP=Reset' 'APP_INCLUDES=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include' 'MANIFEST_FINAL=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen/mos_final.yml' 'MGOS_PATH=/mongoose-os' 'GEN_DIR=/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen' 'ESP_IDF_EXTRA_COMPONENTS=' 'APP_VERSION=1.0'
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387" to "/app"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mongoose-os" to "/mongoose-os"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mongoose-os" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mongoose-os"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32"
+mount from "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen" to "/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen"
+Docker arguments: run --name mos_build_2018-07-05T08-43-01-00_1419202783008368805 --rm -i -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32 -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387:/app -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mongoose-os:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mongoose-os -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mongoose-os:/mongoose-os -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32 -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32 -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32 -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32 -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc -v /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include:/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include --user 0:0 docker.io/mgos/esp32-build:3.0-rc1-r9 /bin/bash -c nice make '-j' '16' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp32/Makefile.build' 'all' 'APP=Reset' 'APP_BIN_LIBS=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32/libmongoose.a' 'APP_CFLAGS=-DMGOS_ENABLE_FILE_UPLOAD=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ENABLE_TUNNEL=0 -DMGOS_ENABLE_WEB_CONFIG=0 -DMGOS_HAVE_BT_COMMON=1 -DMGOS_HAVE_BT_SERVICE_CONFIG=1 -DMGOS_HAVE_HTTP_SERVER=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_PWM=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_WIFI=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1' 'APP_CONF_SCHEMA=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mos_conf_schema.yml' 'APP_CXXFLAGS=-DMGOS_ENABLE_FILE_UPLOAD=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ENABLE_TUNNEL=0 -DMGOS_ENABLE_WEB_CONFIG=0 -DMGOS_HAVE_BT_COMMON=1 -DMGOS_HAVE_BT_SERVICE_CONFIG=1 -DMGOS_HAVE_HTTP_SERVER=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_PWM=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_WIFI=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1' 'APP_FS_FILES=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_bitbang.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_config.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_events.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_gpio.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_grove.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_http.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_log.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_net.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_sys.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_timer.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_uart.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/init.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_dataview.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_file.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_math.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs/api_pwm.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs/api_rpc.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs/api_wifi.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs/api_arch_uart.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs/api_esp32.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/color.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/init.js /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/userData.json' 'APP_INCLUDES=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32 /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include' 'APP_SOURCES=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src/main.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mgos_deps_init.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt_gap.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gap.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gattc.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gatts.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src/mos_mjs.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src/esp32_mjs.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/mgos_pwm.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32/esp32_pwm.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src/mgos_http_server.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src/mgos_rpc_channel_uart.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mgos_wifi.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mjs_wifi.c /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src/esp32_wifi.c' 'APP_VERSION=1.0' 'BUILD_DIR=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs' 'ESP_IDF_EXTRA_COMPONENTS= bt' 'ESP_IDF_SDKCONFIG_OPTS= CONFIG_BT_ENABLED=y CONFIG_BLUEDROID_ENABLED=y CONFIG_BTC_TASK_STACK_SIZE=6144 CONFIG_BLUEDROID_MEM_DEBUG= CONFIG_CLASSIC_BT_ENABLED= CONFIG_BT_DRAM_RELEASE=y CONFIG_GATTS_ENABLE=y CONFIG_GATTC_ENABLE=y CONFIG_BLE_SMP_ENABLE=y CONFIG_BT_STACK_NO_LOG= CONFIG_BT_ACL_CONNECTIONS=4 CONFIG_BTDM_CONTROLLER_RUN_CPU=0 CONFIG_SMP_ENABLE=y CONFIG_BT_RESERVE_DRAM=0x10000 ' 'FFI_SYMBOLS=' 'FS_STAGING_DIR=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs' 'FW_DIR=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fw' 'GEN_DIR=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen' 'MANIFEST_FINAL=/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mos_final.yml' 'MGOS_HAVE_BT_COMMON=1' 'MGOS_HAVE_BT_SERVICE_CONFIG=1' 'MGOS_HAVE_HTTP_SERVER=1' 'MGOS_HAVE_MJS=1' 'MGOS_HAVE_MONGOOSE=1' 'MGOS_HAVE_PWM=1' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'MGOS_HAVE_RPC_UART=1' 'MGOS_HAVE_WIFI=1' 'MGOS_PATH=/mongoose-os' 'MGOS_WIFI_ENABLE_AP_STA=1' 'PLATFORM=esp32'
 make: Entering directory '/app'
-/mongoose-os/fw/platforms/esp32/Makefile.build:178: warning: overriding recipe for target 'defconfig'
+/mongoose-os/fw/platforms/esp32/Makefile.build:179: warning: overriding recipe for target 'defconfig'
 /opt/Espressif/esp-idf/make/project_config.mk:75: warning: ignoring old recipe for target 'defconfig'
-/mongoose-os/fw/platforms/esp32/Makefile.build:178: warning: overriding recipe for target 'menuconfig'
+/mongoose-os/fw/platforms/esp32/Makefile.build:179: warning: overriding recipe for target 'menuconfig'
 /opt/Espressif/esp-idf/make/project_config.mk:62: warning: ignoring old recipe for target 'menuconfig'
+GENCONFIG
+#
+# configuration written to /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/sdkconfig
+#
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cs_mbedtls'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/mosapp'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/partition_table'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/tcpip_adapter'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/micro-ecc'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cs_mbedtls'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/partition_table'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/tcpip_adapter'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/log'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esptool_py'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esptool_py'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/mosapp'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/micro-ecc'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp_adc_cal'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_update'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/log'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp_adc_cal'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_update'
+Building partitions from /mongoose-os/fw/platforms/esp32/src/partitions_mgos.csv...
 make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
-make[1]: Entering directory '/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/objs/mosapp'
-CC mgos_net.o
-CC mgos_debug.o
-CC mgos_config_util.o
-CC mgos_bitbang.o
-CC mgos_core_dump.o
-CC mgos_hal_freertos.o
-CC mgos_dlsym.o
-CC mgos_event.o
-CC mgos_gpio.o
-CC mgos_init.o
-CC mgos_mmap_esp.o
-CC mgos_mongoose.o
-CC /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen/mgos_config.o
-CC mgos_ro_vars.o
-CC mgos_sys_config.o
-In file included from /mongoose-os/fw/src/mgos_net_hal.h:9:0,
-                 from /mongoose-os/fw/src/mgos_net.c:18:
-/mongoose-os/fw/include/mgos_net.h:31:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_net.o' failed
-make[1]: *** [mgos_net.o] Error 1
-make[1]: *** Waiting for unfinished jobs....
-In file included from /mongoose-os/fw/src/mgos_mongoose_internal.h:13:0,
-                 from /mongoose-os/fw/src/mgos_mongoose.c:18:
-/mongoose-os/fw/include/mgos_mongoose.h:30:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_mongoose.o' failed
-make[1]: *** [mgos_mongoose.o] Error 1
-/mongoose-os/fw/src/mgos_config_util.c:27:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-/mongoose-os/fw/src/mgos_debug.c:26:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-make[1]: *** [mgos_config_util.o] Error 1
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_config_util.o' failed
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_debug.o' failed
-make[1]: *** [mgos_debug.o] Error 1
-In file included from /mongoose-os/fw/include/mgos.h:38:0,
-                 from /mongoose-os/fw/src/mgos_init.c:20:
-/mongoose-os/fw/include/mgos_mongoose.h:30:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-make[1]: *** [mgos_init.o] Error 1
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_init.o' failed
-In file included from /mongoose-os/fw/src/mgos_sys_config.c:37:0:
-/mongoose-os/fw/include/mgos_mongoose.h:30:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_sys_config.o' failed
-make[1]: *** [mgos_sys_config.o] Error 1
-In file included from /mongoose-os/fw/src/mgos_mongoose_internal.h:13:0,
-                 from /mongoose-os/fw/src/mgos_hal_freertos.c:34:
-/mongoose-os/fw/include/mgos_mongoose.h:30:22: fatal error: mongoose.h: No such file or directory
-compilation terminated.
-/mongoose-os/fw/platforms/esp32/src/esp32_src.mk:123: recipe for target 'mgos_hal_freertos.o' failed
-make[1]: *** [mgos_hal_freertos.o] Error 1
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_update'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_update/esp_ota_ops.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp_adc_cal'
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx/cxx_guards.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace/app_trace_util.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace/host_file_io.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx/cxx_exception_stubs.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp_adc_cal/esp_adc_cal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/spi_common.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_flash.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace/gcov/gcov_rtio.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace/app_trace.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/ringbuf.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet/emac_dev.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/library/xmltok_ns.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/library/xmltok.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/panic.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/stack_check.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/library/xmlparse.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/library/xmlrole.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/library/xmltok_impl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet/emac_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/port/minicheck.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap/heap_caps_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/flash_qio_mode.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_update/libapp_update.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/event_default_handlers.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace/libapp_trace.a
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp_adc_cal/libesp_adc_cal.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_trace'
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/app_update'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/port/expat_element.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp_adc_cal'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/main'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/log'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/log/log.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/port/chardata.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/task_wdt.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/main'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/spi_master.o
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/netdb.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/efuse.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/pppapi.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_intr.o
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/micro-ecc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/queue.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap/heap_caps.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_init.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/log'
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/spi_flash'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/api_lib.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/sleep_modes.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/croutine.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/log'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/list.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/esptool_py'
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/esptool_py'
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/log/liblog.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/log'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/micro-ecc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/spiram.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/micro-ecc/micro-ecc/uECC.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/netifapi.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet/eth_phy/phy_common.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/port.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_utility.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_common.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap/multi_heap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/tcpip.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/event_groups.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/tasks.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet/eth_phy/phy_lan8720.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/secure_boot.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/netbuf.o
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/log'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_flash.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/log/log.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/cpu_start.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_clock.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx/libcxx.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/secure_boot_signatures.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/flash_qio_mode.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet/eth_phy/phy_tlk110.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/sigmadelta.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cxx'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/timers.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib/time.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/err.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib/reent_init.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/log/liblog.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/efuse.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/log'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/spi_flash'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib/syscalls.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/spi_flash/spi_flash_rom_patch.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/uart.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet/libethernet.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/flash_partitions.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ethernet'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/api_msg.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_init.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/src/nvs_types.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_utility.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/lib_printf.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap/heap_trace.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/esp_image_format.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib/syscall_table.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib/locks.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/gdbstub.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/FreeRTOS-openocd.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_overlay_os_hook.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap/libheap.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/heap'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_common.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_sha.o
+AS /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_intr_asm.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/spi_flash/libspi_flash.a
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/spi_flash'
+AS /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_context.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/secure_boot.o
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/micro-ecc'
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib/libnewlib.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/micro-ecc/micro-ecc/uECC.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_clock.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/newlib'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread/pthread_local_storage.o
+AS /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_vectors.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/micro-ecc/libmicro-ecc.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/secure_boot_signatures.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/micro-ecc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/flash_encrypt.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/src/bootloader_random.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/sdspi_transaction.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/wifi_internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/crosscore_int.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/phy_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/pm_trace.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/flash_partitions.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/i2s.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/periph_ctrl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/ledc.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support/libbootloader_support.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader_support'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread/pthread_cond_var.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/rtc_pm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/cpu_util.o
+AS /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/xtensa_vector_defaults.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/src/nvs_page.o
+AS /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/portasm.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/src/nvs_item_hash_list.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/sdspi_host.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash/flash_mmap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/esp_image_format.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/soc_memory_layout.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos/libfreertos.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/freertos'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/tcpip_adapter'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/tcpip_adapter/tcpip_adapter_lwip.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread/pthread.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/wifi_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/rtc_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/api/sockets.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/rtc_sleep.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/gpio.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/esp_timer_esp32.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_sha.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash/partition.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/flash_encrypt.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/apps/dhcpserver.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread/libpthread.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/pthread'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs/vfs_uart.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/rtc_time.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/spiram_psram.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/timer.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash/spi_flash_rom_patch.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/src/bootloader_random.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/clk.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/esp32/rtc_clk.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support/libbootloader_support.a
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/micro-ecc/libmicro-ecc.a
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/micro-ecc'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/rtc_pm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/pcnt.o
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader_support'
+make[2]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/main'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/main/bootloader_start.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs/vfs.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/src/nvs_pagemanager.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/freertos_hooks.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/cpu_util.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/tcpip_adapter/libtcpip_adapter.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/apps/sntp/sntp.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/tcpip_adapter'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/apps/ping/esp_ping.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/apps/ping/ping.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/main/libmain.a
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/main'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/rtc_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/soc_memory_layout.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/rtc_sleep.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash/cache_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/fast_crypto_ops.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/rtc_time.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc/libsoc.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/soc'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/aes-internal-enc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/cache_err_int.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/esp32/rtc_clk.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/ipc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module/eri.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/intr_alloc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/mem.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash/flash_ops.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/inet_chksum.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs/libvfs.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module/trax.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/md5-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/sha256-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/ets_timer_legacy.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/vfs'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/sdspi_crc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/rmt.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/mosapp'
+  GEN   /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mgos_config.c
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module/libxtensa-debug-module.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/core_dump.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs/spiffs_cache.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/src/nvs_storage.o
+CXX /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/src/nvs_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs/spiffs_gc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs/spiffs_nucleus.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/aes-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/sha1.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/coexist.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash/libspi_flash.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spi_flash'
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc/libsoc.a
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib'
+make[2]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/soc'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/atca_command.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/pm_locks.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/pm_esp32.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/event_loop.o
+LD /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader.elf
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/aes-internal-dec.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/esp_err_to_name.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs/spiffs_check.o
+  GEN   /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mgos_ro_vars.c
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/aes-unwrap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/memp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/crypto_internal-rsa.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/atca_iface.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/atca_cfgs.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/atca_device.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/esp_timer.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/dport_access.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/hw_random.o
+esptool.py v2.3.1
 make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
-make[1]: Leaving directory '/fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/objs/mosapp'
-/opt/Espressif/esp-idf/make/project.mk:466: recipe for target 'component-mosapp-build' failed
-make: *** [component-mosapp-build] Error 2
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/restore.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/des-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/dh_group5.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat/libexpat.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/system_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/basic/atca_basic.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/expat'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/sys.o
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cs_mbedtls'
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cs_mbedtls/libcs_mbedtls.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/tcp.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cs_mbedtls'
+CC esp32_nsleep100.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/crypto_internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/mcpwm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/aes-wrap.o
+CC main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/brownout.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/int_wdt.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/sha1-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/hwcrypto/sha.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/dns.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/basic/atca_helpers.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/sdmmc_transaction.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/hwcrypto/aes.o
+CC mgos_deps_init.o
+CC mgos_bt.o
+AS /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/dport_panic_highint_hdl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ip.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/raw.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs/spiffs_hydrogen.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/spi_slave.o
+CC mgos_bt_gap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/sdmmc_host.o
+CC esp32_bt.o
+CC esp32_bt_gap.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32/libesp32.a
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/md4-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/dh_groups.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/esp32'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/tcp_in.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/sha256.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/rc4.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/md5.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/pbuf.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/aes-cbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/sha1-pbkdf2.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/netif.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/bignum.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/i2c.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/crypto_internal-modexp.o
+CC esp32_bt_gattc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/rtc_module.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/crypto_internal-cipher.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/crypto/ms_funcs.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/stats.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/port/os_xtensa.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/timers.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs/libspiffs.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/spiffs'
+make[1]: Entering directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt'
+  MKDIR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-wrap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/def.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_sha256-internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/lib/host/atca_host.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-cbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/udp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_sha256.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/tcp_out.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/ip_frag.o
+  MKDIR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fw
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-unwrap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/dhcp.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash/libnvs_flash.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/nvs_flash'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal-modexp.o
+CC esp32_bt_gatts.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bt.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/ip4_addr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_sco.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_ci.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_pm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/igmp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/dm/bta_dm_cfg.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/ip4.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib/libcryptoauthlib.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/cryptoauthlib'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/autoip.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant/libwpa_supplicant.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/wpa_supplicant'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv4/icmp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gattc_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/ip6_frag.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gatt_common.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gatts_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/dhcp6.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gattc_cache.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gatts_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/inet6.o
+CC esp32_bt_svc_config.o
+CC mos_mjs.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/ip6_addr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gattc_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/ip6.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/nd6.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gattc_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/mld6.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/ethip6.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/core/ipv6/icmp6.o
+CC esp32_mjs.o
+CC mjs.o
+CC mgos_pwm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gatts_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/netif/slipif.o
+CC esp32_pwm.o
+CC mgos_http_server.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/netif/etharp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gattc_ci.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver/libdriver.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/driver'
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/netif/ethernet.o
+CC mg_rpc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/netif/lowpan6.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/netif/ethernetif.o
+CC mg_rpc_channel.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gattc_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/port/freertos/sys_arch.o
+CC mg_rpc_channel_http.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/port/netif/wlanif.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/port/netif/ethernetif.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/port/debug/lwip_debug.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/port/vfs_lwip.o
+CC mg_rpc_channel_ws.o
+CC mgos_rpc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/gatt/bta_gatts_utils.o
+CC mgos_service_config.o
+CC mgos_service_filesystem.o
+CC mgos_rpc_channel_uart.o
+CC mgos_wifi.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/hh/bta_hh_api.o
+CC mjs_wifi.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/hh/bta_hh_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/hh/bta_hh_le.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/hh/bta_hh_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/hh/bta_hh_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/hh/bta_hh_cfg.o
+CC esp32_wifi.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip/liblwip.a
+  GEN   /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/ffi_exports.c
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sdp/bta_sdp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sdp/bta_sdp_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sdp/bta_sdp_cfg.o
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/lwip'
+CC mgos_debug.o
+CC mgos_bitbang.o
+CC mgos_net.o
+CC mgos_config_util.o
+CC mgos_core_dump.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sdp/bta_sdp_api.o
+CC mgos_dlsym.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_ssm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_cfg.o
+CC mgos_event.o
+CC mgos_hal_freertos.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_ci.o
+CC mgos_gpio.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_main.o
+CC mgos_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_sbc.o
+CC mgos_mmap_esp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/av/bta_av_aact.o
+CC mgos_mongoose.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/ar/bta_ar.o
+CC mgos_sys_config.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sys/bta_sys_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sys/utl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mgos_config.o
+CC mgos_hw_timers.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/sys/bta_sys_conn.o
+CC mgos_ro_vars.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/jv/bta_jv_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/jv/bta_jv_act.o
+CC mgos_time.o
+CC mgos_system.o
+CC mgos_timers.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/jv/bta_jv_main.o
+CC mgos_uart.o
+CC mgos_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/bta/jv/bta_jv_cfg.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btcore/bdaddr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btif/bta_gatts_co.o
+CC mgos_vfs.o
+CC mgos_vfs_dev.o
+CC mgos_vfs_dev_ram.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btif/bta_gattc_co.o
+CC mgos_vfs_fs_spiffs.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btif/bta_dm_co.o
+CC esp32_crypto.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/device/interop.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/hci/buffer_allocator.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/device/controller.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/hci/hci_hal_h4.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/hci/hci_packet_parser.o
+CC esp32_debug.o
+CC esp32_exc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/hci/packet_fragmenter.o
+CC esp32_fs.o
+CC esp32_fs_crypt.o
+CC esp32_vfs_dev_partition.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/hci/hci_layer.o
+CC esp32_gpio.o
+CC esp32_hal.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/hci/hci_packet_factory.o
+CC esp32_hw_timers.o
+CC esp32_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/main/bte_main.o
+CC esp32_uart.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/main/bte_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/semaphore.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/future.o
+CC cs_crc32.o
+CC cs_dbg.o
+CC cs_file.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/hash_map.o
+CC cs_rbuf.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/fixed_queue.o
+CC json_utils.o
+CC frozen.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/config.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/ffi_exports.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/mutex.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/list.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/osi.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/hash_functions.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/allocator.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/alarm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/osi/buffer.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitstream-decode.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-sbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-oina.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-dct8.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/framing.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/dequant.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/alloc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-private.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitalloc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/framing-sbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-sbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_packing.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/decoder/srce/oi_codec_version.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_dct.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_ste.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_enc_coeffs.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_analysis.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_enc_bit_alloc_mono.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_dct_coeffs.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/external/sbc/encoder/srce/sbc_encoder.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_dev.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_storage.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_ble_storage.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_util.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_task.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_profile_queue.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_sm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_alarm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_manage.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_sec.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_config.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/core/btc_dm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/esp/blufi/blufi_prf.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/esp/blufi/blufi_protocol.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/gap/btc_gap_bt.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/gap/btc_gap_ble.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatts.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gattc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatt_util.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatt_common.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_a2dp_sink.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_a2dp_source.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_a2dp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/a2dp/bta_av_co.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_av.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/avrc/btc_avrc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_a2dp_control.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_cont_energy.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_batchscan.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/btc/profile/std/spp/btc_spp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_sec.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_pm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_inq.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_adv_filter.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_dev.o
+  GEN   /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mg_build_info.c
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_privacy.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_acl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_gap.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_bgconn.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_multi_adv.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_ble_addr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_sco.o
+CC mg_build_info.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btm/btm_devctl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btu/btu_hcif.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btu/btu_task.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/btu/btu_init.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gap/gap_ble.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gap/gap_conn.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gap/gap_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gap/gap_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_cl.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_db.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_attr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_sr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_auth.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/att_protocol.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/gatt/gatt_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/hcic/hciblecmds.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/hcic/hcicmds.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_ucd.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2cap_client.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_csm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_fcr.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_link.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/l2cap/l2c_ble.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/sdp/sdp_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/sdp/sdp_db.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/sdp/sdp_discovery.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/sdp/sdp_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/sdp/sdp_server.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/sdp/sdp_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/p_256_curvepara.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/p_256_ecc_pp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_keys.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/aes.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_br_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_cmac.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/p_256_multprecision.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/smp/smp_l2c.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avct/avct_lcb.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avct/avct_l2c.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avct/avct_lcb_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avct/avct_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_pars_ct.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avct/avct_ccb.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_opt.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_bld_ct.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_pars_tg.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_bld_tg.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avrc/avrc_sdp.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_l2c.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_ccb.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_ccb_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_scb.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_msg.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_scb_act.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/avdt/avdt_ad.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/a2dp/a2d_sbc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/a2dp/a2d_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/rfc_port_if.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/rfc_port_fsm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/rfc_mx_fsm.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/port_rfc.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/port_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/port_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/rfc_l2cap_if.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/rfc_ts_frames.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/stack/rfcomm/rfc_utils.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_avrc_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_spp_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_bt_main.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_bt_device.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_gap_bt_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_a2dp_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_gattc_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_blufi_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_gatt_common_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_gap_ble_api.o
+CC /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/bluedroid/api/esp_gatts_api.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt/libbt.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bt'
+  GEN   /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/build_info.c
+CC build_info.o
+AR /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/mosapp/libmosapp.a
+make[1]: Leaving directory '/fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/mosapp'
+LD /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/Reset.elf
+esptool.py v2.3.1
+  Generating breakdown
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_bitbang.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_config.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_events.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_gpio.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_grove.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_http.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_log.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_net.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_sys.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_timer.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_uart.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/init.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_dataview.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_file.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_math.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs/api_pwm.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs/api_rpc.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs/api_wifi.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs/api_arch_uart.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs/api_esp32.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/color.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/init.js -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/userData.json -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  CP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/conf0.json -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs
+  MKFS  /usr/local/bin/mkspiffs8 262144 4096 256 4096 /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fs -> /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/fs.img
+     Adding color.js: 1531
+     Adding api_file.js: 2105
+     Adding conf0.json: 3091
+     Adding api_math.js: 1890
+     Adding api_dataview.js: 7433
+     Adding api_wifi.js: 1020
+     Adding api_grove.js: 2327
+     Adding api_http.js: 3812
+     Adding api_bitbang.js: 815
+     Adding api_timer.js: 1736
+     Adding api_pwm.js: 726
+     Adding api_esp32.js: 460
+     Adding init.js: 4299
+     Adding api_config.js: 2170
+     Adding api_sys.js: 1641
+     Adding userData.json: 73
+     Adding api_arch_uart.js: 1206
+     Adding api_gpio.js: 2731
+     Adding api_log.js: 2005
+     Adding api_events.js: 3398
+     Adding api_net.js: 5122
+     Adding api_uart.js: 5772
+     Adding api_rpc.js: 2792
+     Image stats: size=262144, space: total=233681, used=66766, free=166915
+  GEN    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/manifest.json
+  ZIP    /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/fw/Reset-esp32-last.zip
+     Adding /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/Reset.bin
+     Adding /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/bootloader.bin
+     Adding /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/fs.img
+     Adding /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/otadata.bin
+     Adding /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/fw_temp/partitions_mgos.bin
+  Built Reset/esp32 version 1.0 (20180705-084311/???)
+To flash all build output, run 'make flash' or:
+python /opt/Espressif/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 1500000 --before default_reset --after hard_reset write_flash -z --flash_mode qio --flash_freq 40m --flash_size detect 0x1000 /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/bootloader/bootloader.bin 0x10000 /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/Reset.bin 0x8000 /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/objs/partitions_mgos.bin
 make: Leaving directory '/app'
-Error: exit status 2
+Success, built Reset/esp32 version 1.0 (20180705-084311/???).
+Firmware saved to build/fw.zip

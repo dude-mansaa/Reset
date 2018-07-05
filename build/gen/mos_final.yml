@@ -3,39 +3,181 @@ type: app
 version: "1.0"
 platform: esp32
 platforms:
-- cc3200
-- cc3220
 - esp32
-- esp8266
-- pic32
-- stm32
 author: mongoose-os
 description: A Mongoose OS app skeleton
 sources:
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/src/main.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/build/gen/mgos_deps_init.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mgos_rpc.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src/mgos_service_config.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src/mgos_service_filesystem.c
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/src/main.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/build/gen/mgos_deps_init.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt_gap.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gap.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gattc.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gatts.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src/mos_mjs.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src/esp32_mjs.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/mgos_pwm.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32/esp32_pwm.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src/mgos_http_server.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mgos_rpc.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src/mgos_service_config.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src/mgos_service_filesystem.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mgos_wifi.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mjs_wifi.c
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src/esp32_wifi.c
 includes:
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include/mg_rpc
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/include
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/include
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/include
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/include/esp32
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include/mg_rpc
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/include
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/include
 filesystem:
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs/index.html
-- /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/fs/init.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_bitbang.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_config.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_events.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_gpio.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_grove.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_http.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_log.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_net.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_sys.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_timer.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/api_uart.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/fs/init.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_dataview.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_file.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs/lib/api_math.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/mjs_fs/api_pwm.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/mjs_fs/api_rpc.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/mjs_fs/api_wifi.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs/api_arch_uart.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/fs/api_esp32.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/color.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/init.js
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/fs/userData.json
+binary_libs:
+- /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose/lib/esp32/libmongoose.a
+modules:
+- origin: https://github.com/cesanta/mjs
+  location: https://github.com/cesanta/mjs
+  name: mjs_module
+  suffixtpl: ""
 libs:
 - origin: https://github.com/mongoose-os-libs/mongoose
   location: https://github.com/mongoose-os-libs/mongoose
   suffixtpl: ""
 config_schema:
+- - bt
+  - o
+  - title: Bluetooth settings
+- - bt.enable
+  - b
+  - true
+  - title: Enable BT
+- - bt.dev_name
+  - s
+  - ""
+  - title: Device name; defaults to device.id
+- - bt.adv_enable
+  - b
+  - true
+  - title: Advertise services
+- - bt.scan_rsp_data_hex
+  - s
+  - ""
+  - title: Scan response data, hex-encoded
+- - bt.keep_enabled
+  - b
+  - false
+  - title: By default, BT will be disabled once WiFi is configured and connects. Set
+      this to true to keep BT enabled.
+- - bt.allow_pairing
+  - b
+  - true
+  - title: Allow pairing/bonding with other devices
+- - bt.max_paired_devices
+  - i
+  - -1
+  - title: Max number of paired devices; -1 - no limit
+- - bt.random_address
+  - b
+  - true
+  - title: Use random BT address
+- - bt.gatts
+  - o
+  - title: GATTS settings
+- - bt.gatts.min_sec_level
+  - i
+  - 0
+  - title: 0 - no auth required, 1 - encryption reqd, 2 - encryption + MITM reqd
+- - bt.gatts.require_pairing
+  - b
+  - false
+  - title: Require device to be paired before accessing services
+- - bt.config_svc_enable
+  - b
+  - true
+  - title: Enable the config service
+- - mjs
+  - o
+  - title: mJS settings
+- - mjs.generate_jsc
+  - b
+  - true
+  - title: Generate .jsc file when executing any .js file
+- - http
+  - o
+  - title: HTTP Server
+- - http.enable
+  - b
+  - true
+  - title: Enable HTTP Server
+- - http.listen_addr
+  - s
+  - "80"
+  - title: Listening port / address
+- - http.document_root
+  - s
+  - /
+  - title: Root for serving files. Setting to empty disables file serving.
+- - http.ssl_cert
+  - s
+  - title: Turn on SSL on the listener, use this cert
+- - http.ssl_key
+  - s
+  - title: SSL key to use
+- - http.ssl_ca_cert
+  - s
+  - title: Verify clients this CA bundle
+- - http.upload_acl
+  - s
+  - '*'
+  - title: Upload file ACL
+- - http.hidden_files
+  - s
+  - title: Hidden file pattern
+- - http.auth_domain
+  - s
+  - title: Enable authentication of all HTTP requests
+- - http.auth_file
+  - s
+  - title: Password file to use for auth
 - - rpc
   - o
   - title: RPC settings
@@ -97,6 +239,7 @@ config_schema:
   - title: RPC-over-UART settings
 - - rpc.uart.uart_no
   - i
+  - 0
   - title: UART number (-1 to disable)
 - - rpc.uart.baud_rate
   - i
@@ -106,57 +249,342 @@ config_schema:
   - i
   - 2
   - title: 'Flow control: 0 - none, 1 - CTS/RTS, 2 - XON/XOFF'
-- - rpc.uart.wait_for_start_frame
+- - wifi
+  - o
+  - hide: true
+- - wifi.ap
+  - o
+  - title: WiFi Access Point
+- - wifi.ap.enable
   - b
   - true
-  - title: Wait for an incoming frame before using the channel
+  - title: Enable
+- - wifi.ap.ssid
+  - s
+  - Mongoose_??????
+  - title: SSID
+- - wifi.ap.pass
+  - s
+  - Mongoose
+  - title: Password
+    type: password
+- - wifi.ap.hidden
+  - b
+  - false
+  - title: Hide SSID
+- - wifi.ap.channel
+  - i
+  - 6
+  - title: Channel
+- - wifi.ap.max_connections
+  - i
+  - 10
+  - title: Max connections
+- - wifi.ap.ip
+  - s
+  - 192.168.4.1
+  - title: IP address
+- - wifi.ap.netmask
+  - s
+  - 255.255.255.0
+  - title: Network Mask
+- - wifi.ap.gw
+  - s
+  - 192.168.4.1
+  - title: Default Gateway
+- - wifi.ap.dhcp_start
+  - s
+  - 192.168.4.2
+  - title: DHCP Start Address
+- - wifi.ap.dhcp_end
+  - s
+  - 192.168.4.100
+  - title: DHCP End Address
+- - wifi.ap.trigger_on_gpio
+  - i
+  - -1
+  - title: Trigger AP on low GPIO
+- - wifi.ap.disable_after
+  - i
+  - 0
+  - title: If > 0, will disable itself after the specified number of seconds
+- - wifi.ap.hostname
+  - s
+  - ""
+  - title: If not empty, DNS server will resolve given host name to the IP address
+      of AP
+- - wifi.sta
+  - o
+  - title: WiFi Station
+- - wifi.sta.enable
+  - b
+  - title: Connect to existing WiFi
+- - wifi.sta.ssid
+  - s
+  - title: SSID
+- - wifi.sta.pass
+  - s
+  - title: Password
+    type: password
+- - wifi.sta.user
+  - s
+  - title: Username for WPA-PEAP mode
+- - wifi.sta.anon_identity
+  - s
+  - title: Anonymous identity for WPA mode
+- - wifi.sta.cert
+  - s
+  - title: Client certificate for WPA-TTLS mode
+- - wifi.sta.key
+  - s
+  - title: Client key for WPA-TTLS mode
+- - wifi.sta.ca_cert
+  - s
+  - title: CA certificate for WPA-enterprise mode
+- - wifi.sta.ip
+  - s
+  - title: Static IP Address
+- - wifi.sta.netmask
+  - s
+  - title: Static Netmask
+- - wifi.sta.gw
+  - s
+  - title: Static Default Gateway
+- - wifi.sta.nameserver
+  - s
+  - title: DNS Server
+- - wifi.sta.dhcp_hostname
+  - s
+  - title: Host name to include in DHCP requests
+- - wifi.sta1
+  - o
+  - title: WiFi Station
+- - wifi.sta1.enable
+  - b
+  - title: Connect to existing WiFi
+- - wifi.sta1.ssid
+  - s
+  - title: SSID
+- - wifi.sta1.pass
+  - s
+  - title: Password
+    type: password
+- - wifi.sta1.user
+  - s
+  - title: Username for WPA-PEAP mode
+- - wifi.sta1.anon_identity
+  - s
+  - title: Anonymous identity for WPA mode
+- - wifi.sta1.cert
+  - s
+  - title: Client certificate for WPA-TTLS mode
+- - wifi.sta1.key
+  - s
+  - title: Client key for WPA-TTLS mode
+- - wifi.sta1.ca_cert
+  - s
+  - title: CA certificate for WPA-enterprise mode
+- - wifi.sta1.ip
+  - s
+  - title: Static IP Address
+- - wifi.sta1.netmask
+  - s
+  - title: Static Netmask
+- - wifi.sta1.gw
+  - s
+  - title: Static Default Gateway
+- - wifi.sta1.nameserver
+  - s
+  - title: DNS Server
+- - wifi.sta1.dhcp_hostname
+  - s
+  - title: Host name to include in DHCP requests
+- - wifi.sta2
+  - o
+  - title: WiFi Station
+- - wifi.sta2.enable
+  - b
+  - title: Connect to existing WiFi
+- - wifi.sta2.ssid
+  - s
+  - title: SSID
+- - wifi.sta2.pass
+  - s
+  - title: Password
+    type: password
+- - wifi.sta2.user
+  - s
+  - title: Username for WPA-PEAP mode
+- - wifi.sta2.anon_identity
+  - s
+  - title: Anonymous identity for WPA mode
+- - wifi.sta2.cert
+  - s
+  - title: Client certificate for WPA-TTLS mode
+- - wifi.sta2.key
+  - s
+  - title: Client key for WPA-TTLS mode
+- - wifi.sta2.ca_cert
+  - s
+  - title: CA certificate for WPA-enterprise mode
+- - wifi.sta2.ip
+  - s
+  - title: Static IP Address
+- - wifi.sta2.netmask
+  - s
+  - title: Static Netmask
+- - wifi.sta2.gw
+  - s
+  - title: Static Default Gateway
+- - wifi.sta2.nameserver
+  - s
+  - title: DNS Server
+- - wifi.sta2.dhcp_hostname
+  - s
+  - title: Host name to include in DHCP requests
+- - wifi.sta_cfg_idx
+  - i
+  - 0
+  - title: WiFi station config index to use, 0, 1 or 2
+- - wifi.sta_connect_timeout
+  - i
+  - 30
+  - title: Timeout for connection, seconds
+- - wifi.ap.keep_enabled
+  - b
+  - true
+  - title: Keep AP enabled when station is on
 build_vars:
-  ESP_IDF_EXTRA_COMPONENTS: ""
-  ESP_IDF_SDKCONFIG_OPTS: ""
+  ESP_IDF_EXTRA_COMPONENTS: ' bt'
+  ESP_IDF_SDKCONFIG_OPTS: |2
+     CONFIG_BT_ENABLED=y CONFIG_BLUEDROID_ENABLED=y CONFIG_BTC_TASK_STACK_SIZE=6144 CONFIG_BLUEDROID_MEM_DEBUG= CONFIG_CLASSIC_BT_ENABLED= CONFIG_BT_DRAM_RELEASE=y CONFIG_GATTS_ENABLE=y CONFIG_GATTC_ENABLE=y CONFIG_BLE_SMP_ENABLE=y CONFIG_BT_STACK_NO_LOG= CONFIG_BT_ACL_CONNECTIONS=4 CONFIG_BTDM_CONTROLLER_RUN_CPU=0 CONFIG_SMP_ENABLE=y CONFIG_BT_RESERVE_DRAM=0x10000
+  MGOS_HAVE_BT_COMMON: "1"
+  MGOS_HAVE_BT_SERVICE_CONFIG: "1"
+  MGOS_HAVE_HTTP_SERVER: "1"
+  MGOS_HAVE_MJS: "1"
+  MGOS_HAVE_MONGOOSE: "1"
+  MGOS_HAVE_PWM: "1"
   MGOS_HAVE_RPC_COMMON: "1"
   MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
   MGOS_HAVE_RPC_SERVICE_FS: "1"
   MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_WIFI_ENABLE_AP_STA: "1"
 cdefs:
+  MG_ENABLE_DNS: "1"
+  MG_ENABLE_DNS_SERVER: "1"
+  MG_ENABLE_MQTT: "1"
+  MG_ENABLE_SNTP: "1"
+  MGOS_ENABLE_FILE_UPLOAD: "1"
   MGOS_ENABLE_RPC_CHANNEL_HTTP: "1"
   MGOS_ENABLE_RPC_CHANNEL_WS: "1"
   MGOS_ENABLE_SYS_SERVICE: "1"
+  MGOS_ENABLE_TUNNEL: "0"
+  MGOS_ENABLE_WEB_CONFIG: "0"
+  MGOS_HAVE_BT_COMMON: "1"
+  MGOS_HAVE_BT_SERVICE_CONFIG: "1"
+  MGOS_HAVE_HTTP_SERVER: "1"
+  MGOS_HAVE_MJS: "1"
+  MGOS_HAVE_MONGOOSE: "1"
+  MGOS_HAVE_PWM: "1"
   MGOS_HAVE_RPC_COMMON: "1"
   MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
   MGOS_HAVE_RPC_SERVICE_FS: "1"
   MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_WIFI_ENABLE_AP_STA: "1"
 tags:
 - c
-libs_version: "2.2"
-modules_version: "2.2"
-mongoose_os_version: "2.2"
+libs_version: "2.3"
+modules_version: "2.3"
+mongoose_os_version: "2.3"
 manifest_version: 2017-05-18
 libs_handled:
+- name: mongoose
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mongoose
+- name: bt-common
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common
+  deps:
+  - mongoose
+  sources:
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/mgos_bt_gap.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gap.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gattc.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-common/src/esp32/esp32_bt_gatts.c
+- name: bt-service-config
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config
+  deps:
+  - bt-common
+  sources:
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c
+- name: mjs
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs
+  deps:
+  - mongoose
+  sources:
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/src/mos_mjs.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/modules/mjs_module/mjs.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/mjs/esp32/src/esp32_mjs.c
+- name: pwm
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm
+  deps:
+  - mongoose
+  sources:
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/mgos_pwm.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/pwm/src/esp32/esp32_pwm.c
+- name: http-server
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server
+  deps:
+  - mongoose
+  sources:
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/http-server/src/mgos_http_server.c
 - name: rpc-common
-  path: /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common
   deps:
   - http-server
   sources:
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc.c
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-common/src/mgos_rpc.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-common/src/mgos_rpc.c
 - name: rpc-service-config
-  path: /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config
   deps:
   - rpc-common
   sources:
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-config/src/mgos_service_config.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-config/src/mgos_service_config.c
 - name: rpc-service-fs
-  path: /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs
   deps:
   - rpc-common
   sources:
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-service-fs/src/mgos_service_filesystem.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-service-fs/src/mgos_service_filesystem.c
 - name: rpc-uart
-  path: /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart
   deps:
   - rpc-common
   sources:
-  - /fwbuild-volumes/2.2/apps/Reset/esp32/build_contexts/build_ctx_446834673/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+- name: wifi
+  path: /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi
+  deps:
+  - mongoose
+  sources:
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mgos_wifi.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/src/mjs_wifi.c
+  - /fwbuild-volumes/2.3/apps/Reset/esp32/build_contexts/build_ctx_561447387/libs/wifi/esp32/src/esp32_wifi.c
+init_deps:
+- mongoose
+- bt-common
+- bt-service-config
+- wifi
+- http-server
+- mjs
+- pwm
+- rpc-common
+- rpc-service-config
+- rpc-service-fs
+- rpc-uart

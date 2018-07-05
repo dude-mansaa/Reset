@@ -36,7 +36,8 @@ let isReset = function(){
 			doReset();
 		}
 };
-isReset();
+
+
 let check = function(){
 	let s = File.read('userData.json');
 	let bb = JSON.parse(s);
@@ -127,7 +128,7 @@ let Initcolor = function(){
 	}
 	
 };
-Initcolor();
+
 
 let Blinkb  = function(){ 
 	let i = Timer.set(1500,true,function(){
@@ -188,4 +189,5 @@ let GetCurrent = function(){
 	};
 	return r;
 };
-
+Initcolor();
+isReset();
